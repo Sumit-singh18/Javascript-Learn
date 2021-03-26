@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+</head>
+
+<body>
+    <center>
+        <h1>ATTRIBUE IN JAVASCRIPT</h1>
+    </center>
+    <a id="googel"> </a><br>
+    <a id="yahho"> </a><br>
+    <a id="chitkara">chitkara university</a>
+
+    <script>
+        $(document).ready(function() {
+            $("#googel").text("googel link").attr("href", "http://googel.com");
+            $("#yahho").text("yahoo link").attr("href", "http://yahoo.com");
+            $("#chitkara").attr("href", "http://chitkara.edu.in");
+        });
+    </script>
+</body>
+
+</html>

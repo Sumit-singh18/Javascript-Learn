@@ -24,7 +24,7 @@ function getdata() {
         console.log(data);
     })
 }
-
+// post request
 function postdata() {
 
     url = 'https://jsonplaceholder.typicode.com/posts';

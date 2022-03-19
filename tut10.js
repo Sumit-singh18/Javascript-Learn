@@ -1,6 +1,7 @@
 console.log("Hey this is a date and time in javascript session");
 let today = new Date();
 // console.log(today);
+document.write(today)
 
 otherdate = new Date('5-15-2000 12:54:41');
 // otherdate = new Date('May 18 2000')

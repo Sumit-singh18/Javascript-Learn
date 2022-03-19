@@ -16,7 +16,7 @@ let element = document.getElementById("heading");
 // element.style.color = " yellow";
 // element.innerText = "sumit singh ";
 element.innerHTML = "<b> sumit is goooddd</b>"
-    // console.log(element);
+    console.log(element);
 
 let sel = document.querySelector("h1");
 sel.style.color = "blue";
@@ -45,4 +45,4 @@ let nodetype = cont.children[1].nodeType;
 // console.log(cont.childNodes);
 // console.log(cont.children);
 let container = document.querySelector("div.container");
-console.log(container.children[1].children);
+// console.log(container.children[1].children);

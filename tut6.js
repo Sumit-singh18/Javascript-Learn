@@ -1,4 +1,4 @@
-console.log("this is my javascript learining time");
+console.log("this is my javascript learning time");
 document.getElementById("heading").addEventListener("click", function(e) {
     // console.log("you clicked on heading");
     // location.href = "//youtube.com";

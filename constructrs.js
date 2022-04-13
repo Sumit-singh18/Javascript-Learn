@@ -21,7 +21,7 @@ function GeneralCar(givename, givenspeed, givenmodel) {
         console.log(`${this.name} is running`);
     }
     this.analyze = function() {
-        console.log(`this car is running slower ${200 - this.speed} km then mercedes `);
+        console.log(`${givename} is running slower ${200 - this.speed} km then mercedes `);
     };
 };
 

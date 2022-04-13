@@ -10,17 +10,18 @@ a = document.all;
 // 2.multiple element selector
 
 let element = document.getElementById("heading");
-// element = element.className;
+// element = element.className;             
 // element = element.childNodes;
 // element = element.parentNode;
 // element.style.color = " yellow";
 // element.innerText = "sumit singh ";
-element.innerHTML = "<b> sumit is goooddd</b>"
-    console.log(element);
+// element.innerHTML = " sumit is goooddd";
+    // console.log(element);
 
 let sel = document.querySelector("h1");
 sel.style.color = "blue";
 sel.querySelector("child");
+sel.innerHTML="javascripttttttt "
 // console.log(sel);
 
 

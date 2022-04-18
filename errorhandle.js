@@ -15,6 +15,6 @@ try {
     console.log(error);
 } finally {
     console.log(
-        "This will run whatever the statement is present in try or block statement "
+        "This will run whatever the statement is present in try block statement "
     );
 }

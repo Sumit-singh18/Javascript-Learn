@@ -43,4 +43,4 @@ function Partydetails(Partyname,Partyid, age){
 };
 entry = new Partydetails("Sumit", 17, 21);
 entry1= new Partydetails ("Snehal", 16, 11);
-console.log(entry)
+console.log(entry);

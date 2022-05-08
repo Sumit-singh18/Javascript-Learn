@@ -9,7 +9,7 @@ function loadtext() {
 
     //  create a open - type,url/file,asynch
     xhr.open('GET', 'ajax.txt', true);
-    console.log('READYSTATE', xhr.readyState)
+    // console.log('READYSTATE', xhr.readyState)
 
     // optional on progress 
     xhr.onprogress = function() {

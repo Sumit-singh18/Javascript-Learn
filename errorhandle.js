@@ -1,5 +1,5 @@
 console.log("This is error handling chapter");
-let a = "sumit singh";
+let a = "sumit";
 a = undefined;
 if (a != undefined) {
     throw new Error("A is not defined"); //we can use this to throw custom  error
@@ -8,8 +8,8 @@ if (a != undefined) {
 }
 
 try {
-    fcvhgbhngvbh;
-    console.log("we are inside try block");
+    gyedhcwujxsk;
+    console.log(`we are inside try block `);
 } catch (error) {
     console.log("you are writting wrong Syntax");
     console.log(error);

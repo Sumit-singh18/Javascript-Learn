@@ -8,4 +8,4 @@ let message=(greet,value)=>{
     console.log(greet(),value)
     
 }
-message(Name,'Sumittt')
+message(Name,'Sumittt') 

@@ -27,7 +27,7 @@ function x() {
     }
      y();
 }
-x();
+x()();
 
 // uses of closure:
 

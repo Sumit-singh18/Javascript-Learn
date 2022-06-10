@@ -9,7 +9,7 @@ const students = [
 
 function enrollstudent(student) {
     setTimeout(function() {
-        studentss.push(student);
+        students.push(student);
 
     }, 3000);
 }

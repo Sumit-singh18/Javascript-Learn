@@ -17,4 +17,7 @@ const Callback2={
 //call function is used when you want to call a fucntion/object of the another object .I.E=>  we used callback function in callback2 by using call mthod
 callback.Define.call(Callback2,'S')
 
+// Callmethod takes argument seperately
+
+
 

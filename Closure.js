@@ -1,6 +1,7 @@
 // function along with its lexical scope bundle forms a closure
+// In closure value get retained after the function call.
+//  1st example
 
-// it is 1st example
 // function x() {
 //     var a =9;
 //     function y() {
@@ -28,6 +29,9 @@ function x() {
      y();
 }
 x()();
+
+
+
 
 // uses of closure:
 

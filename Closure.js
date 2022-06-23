@@ -33,6 +33,19 @@ x()();
 
 
 
+
+
+function q() {
+    var x=0
+
+
+}
+
+
+
+
+
+
 // uses of closure:
 
 // currying 

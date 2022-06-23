@@ -21,4 +21,4 @@ fun();
 // itself (or we can say variable a is converted to a global variable) that'swhy the function "fun();"
 // but it will not print the value of the variable that we declared using the let keyword. 
 //  isable to print the value of the variable. But the function "fun();" isnot able to print the value of variable b because of declaring it using 
-//  the "let" keyword due to which its scope gets confined to function definition, and it is not available for any outsider functions.
+//  the "let" keyword due to which its scope gets confined to function definition, and it is not available for any outsider function

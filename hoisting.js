@@ -1,13 +1,20 @@
 /*  Hoisting is a mechanism in JavaScript that moves the declaration of variables and functions at the top. 
  So, in JavaScript we can use variables and functions before declaring them.*/
 
+//  watch Namstey javascript hoisting and let & const video for all your doubt
    
-// hoisting   
+// hoisting 
+
+// temporal deadzone - It means when the variable is assigned a memory but value of that variable is not Initilize then the time b/w that is known as
+// temporal deadzone
+
 function codeHoist(){   
-    a = 11;   
-let b = 50;   
+ a = 11;   
+  b = 50;   
+  a+b;
 }   
 codeHoist();  
+
 
 function fun(){  
 console.log(a); // 11  
@@ -15,6 +22,9 @@ console.log(b); // ReferenceError : b is not defined
 
 } 
 fun();
+// let and const are also hoisted but in temporal deadzone
+
+
 // At the time of function calling the function "fun();" will print the value of variable 'a' 
 // that we left undeclared in the definition of function "codeHoist();" 
 // This happens because the scope of the variable 'a' is changed to global by the JavaScript 

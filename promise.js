@@ -1,5 +1,5 @@
 // promises
-// 1. inside catch =reject
+// 1. inside catch =reject  
 // 2.inside then= rsolve
 // 3.pending
 

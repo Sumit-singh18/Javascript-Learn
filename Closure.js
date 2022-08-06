@@ -2,33 +2,32 @@
 // In closure value get retained after the function call.
 //  1st example
 
-// function x() {
-//     var a =9;
-//     function y() {
-//      console.log(a)
-//     }
+function x() {
+    var a =9;
+    function y() {
+     console.log(a)
+    }
 
-//     y();
-// }
-
-// x();
+    y();
+}
+x();
 
 
 
 // 2nd exammple 
 
-function x() {
-    var a = 9;
-    function y() {
-        var g = 900;
-        function s() {
-            console.log(a,g);
-        }
-         s();
-    }
-     y();
-}
-x()();
+// function x() {
+//     var a = 9;
+//     function y() {
+//         var g = 900;
+//         function s() {
+//             console.log(a,g);
+//         }
+//          s();
+//     }
+//      y();
+// }
+// x()();
 
 
 

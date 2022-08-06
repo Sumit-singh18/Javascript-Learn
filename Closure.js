@@ -35,11 +35,9 @@ x()();
 
 
 
-function q() {
-    var x=0
-
-
-}
+// function q() {
+//     var x=0
+// }
 
 
 

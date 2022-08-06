@@ -3,7 +3,7 @@ const callback={
     Student:'IT',
     Define:function(Grade){
         let Text=`My Name is ${this.name} I am a Student of B.tech(${this.Student}). My previous Year Grade is ${Grade}`
-        document.getElementById('Define').innerHTML=Text
+        // document.getElementById('Define').innerHTML=Text
         // console.log(Text)
     }
     }
@@ -22,3 +22,6 @@ let arr;
 // apply Method is Also used to find max number in array
 arr = Math.max.apply(null,[1,2,3,3,5,8,7,77,9,8,9,8,9,75]);
 console.log(arr)
+
+//  let max = Math.max(8,88)
+// console.log(max)

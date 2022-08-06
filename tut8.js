@@ -17,21 +17,21 @@ localStorage.clear();
 
 
 // to store the value in array use json.strngify
-let impArr = ["java", "python", "css"]
-localStorage.setItem("lang", JSON.stringify(impArr));
+// let impArr = ["java", "python", "css"]
+// localStorage.setItem("lang", JSON.stringify(impArr));
 
 
-// to retrieve the data in array use json.parse()
-impArr = JSON.parse(localStorage.getItem("lang"));
-console.log(impArr);
+// // to retrieve the data in array use json.parse()
+// impArr = JSON.parse(localStorage.getItem("lang"));
+// console.log(impArr);
 
 
-// SESSION STORAGE
+// // SESSION STORAGE
 
-// TO SET THE DATA IN SESSON STORAGE
-sessionStorage.setItem("Name", "ssumit");
-sessionStorage.setItem("Name1", "ssumit1");
+// // TO SET THE DATA IN SESSON STORAGE
+// sessionStorage.setItem("Name", "ssumit");
+// sessionStorage.setItem("Name1", "ssumit1");
 
 
-// TO CLEAR SESSION STORAGE
-sessionStorage.clear();
+// // TO CLEAR SESSION STORAGE
+// sessionStorage.clear();

@@ -1,8 +1,7 @@
 // by bind method we can bind the object to the common function
 const callback = {
     name: 'Sumit',
-    Student: 'IT',
-   
+    Student: 'IT', 
 }
 Define = function (Grade) {
     let Text = `My Name is ${this.name} I am a Student of B.tech(${this.roll}). My grade is ${Grade}.`

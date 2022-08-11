@@ -15,4 +15,4 @@ Obj.prototype.getName = function() {
 }
 
 Obj.prototype.setName = function(newName) {
-        this.name = newName;
+        this.name = newName;}

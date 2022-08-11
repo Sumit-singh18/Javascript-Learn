@@ -5,9 +5,9 @@
 
 function func1() {
     return new Promise(function(resolve, reject) {
-        setTimeout(() => {
-            const error = true;
-            if (!error) {
+        // setTimeout(() => {
+            const error = 2;
+            if (error ==2) {
                 console.log('function: your function is resolved')
                 resolve();
             } else {
@@ -15,7 +15,7 @@ function func1() {
                 reject();
             }
 
-        }, 2000);
+        // }, 2000);
     })
 }
 func1().then(function() {

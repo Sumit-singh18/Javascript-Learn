@@ -10,9 +10,9 @@ let second = () => {
 second();
 
 // single object do not require parenthesis
-const greet = name => 'hey ' + name;
+const greet = name => `hey and ${name}`;
 console.log(greet('sumit'));
 
 // double object  require parenthesis
-const greeting = (name, end) => 'hey ' + name + end;
+const greeting = (name, end) => `hey ${name} and ${end}`;
 console.log(greeting('sumit', ' bye'));

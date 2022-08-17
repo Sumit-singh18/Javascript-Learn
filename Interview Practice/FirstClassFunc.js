@@ -17,7 +17,7 @@ b()
 //     console.log('button clicked')
 //     })   
     
-// Difference between Argument And Parametre
+// Difference between Argument And Parameter
 
 function c(param1,param2){
     Val = `param is above argument is below ${param1} and ${param2}`

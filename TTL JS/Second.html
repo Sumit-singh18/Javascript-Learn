@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    Count :
+    <p id="demo">Count displayed here</p>
+    <script>
+      a = 10;
+      //global
+      function myFunction() {
+        return a * 10;
+      }
+      document.write(myFunction());
+      function myFunction2() {
+        x = 5; //local variable
+        return a * x;
+      }
+      //document.write('<p> '+x+" </p>")
+      //x is not visible
+      let counter = 0;
+      //global
+      function add() {
+        let counter = 0; //local
+        counter += 1;
+        return counter;
+      }
+      add();
+      add();
+      add();
+      add();
+      add();
+      function change() {
+        //global variable
+             document.getElementById('demo').innerHTML="count is "+counter
+      }
+    </script>
+    <script>
+      a = myFunction();
+      console.log(a);
+      console.log("Count is " + counter);
+    </script>
+    <button onclick="change()">Get Count</button>
+  </body>
+</html>

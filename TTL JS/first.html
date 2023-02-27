@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+
+  <head>
+    <title>Javascript</title>
+
+    <script>
+      document.write("This is javascript code from head tag");
+    </script>
+  </head>
+  <body>
+    <h1>This is Javascript Demo</h1>
+
+    <p id="para1">This is paragraph</p>
+
+    <script>
+      document.write("This is javascript code from body tag")
+         function change(){
+               var x=document.getElementById('para1')       
+                //document.getElementById('para1').innerHTML="Welcome to TTL !!!"    
+                
+                x.style.fontSize="40px";        x.style.color="blue";        x.innerHTML="Welcome to TTL!!!";      }
+    </script>
+    <button onclick="change()">Click here</button>
+  </body>
+</html>
